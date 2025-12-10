@@ -8,6 +8,7 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader, TensorDataset, Dataset
 from PIL import Image
+import torch.nn.functional as F
 import numpy as np
 from numpy import asarray
 from matplotlib import pyplot
